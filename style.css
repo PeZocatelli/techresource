@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding: 30px 20px;
+    padding: 50px 0px;
     background-color: #ffffff; 
     position: fixed; 
     top: 0; 
@@ -20,8 +20,9 @@ body {
 .logo {
     position: absolute;
     left: 100px; 
-    width: 150px; 
+    width: 20px; 
     height: auto;
+   
 }
 
 .nav-links {
@@ -141,4 +142,142 @@ body, html {
     line-height: 1.6;
     margin-bottom: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 120px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #B22222;
+    margin-bottom: 20px;
+}
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    margin-bottom: 15px;
+}
+
+
+
+
+.profile h2 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.profile p {
+    margin: 5px 0;
+    color: #B22222;
+}
+
+button {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #8B0000;
+}
+
+
+.advogados .container {
+    text-align: center;
+}
+
+.profile-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.profile {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.profile h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #666;
+}
+
+.profile button {
+    background-color: 8B0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile button:hover {
+    background-color: 8B0000;
+}
+
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #800000;
+    color: #FFFFFF;
+}
+
+.content2{
+   
+    background-color: #800000;
+    padding-left: 200px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content3{
+    background-color: #660000;
+    padding-right: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+}
+
+.content3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#comentario{
+    width: 300px;
+    height: 100px;
+}
+
+#enviar{
+    height: 30px;
+    width: 70px;
+    background-color: #b80000;
+    color: white;
+    border-radius: 10px;
 }
