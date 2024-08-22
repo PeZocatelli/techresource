@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #ffffff; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    position: absolute;
+    left: 100px; 
+    width: 150px; 
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #800000; 
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: url('advcacia.png'); 
+    background-size: cover;
+    background-position: center; 
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 60px; 
+}
+
+.whatsapp-button {
+    background-color: #800000; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px; 
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.1s ease;
+    margin-bottom: 0px; 
+}
+
+.whatsapp-button:hover {
+    background-color: #660000; 
+}
+
+.sidebar-rect {
+    position: absolute; 
+    top: 42px;  
+    left: 0;
+    height: calc(103% - 20px); 
+    width: 550px; 
+    background-color: rgba(128, 0, 0, 0.7); 
+    z-index: 500; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    color: #FFFFFF; 
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+.sidebar-rect h1 {
+    margin: 0;
+    font-size: 24px; 
+    margin-bottom: 5px; 
+    color: #FFFFFF; 
+}
+
+.sidebar-rect hr {
+    border: none;
+    border-top: 1px solid #FFFFFF; 
+    width: 60%; 
+    margin: 10px 0; 
+}
+
+.sidebar-rect p {
+    margin: 0;
+    font-size: 14px; 
+    margin-top: 10px; 
+    color: #FFFFFF; 
+}
+
+
+.nossa-visao {
+    background-color: #800000; 
+    color: #ffffff; 
+    padding: 150px; 
+    margin-top: 0px; 
+    text-align: justify; 
+}
+
+.nossa-visao h2 {
+    margin-bottom: 20;
+    font-size: 38px;
+    text-align: center; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nossa-visao p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
