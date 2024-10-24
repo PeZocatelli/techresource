@@ -26,7 +26,8 @@
     </section>
     
     <div class="sidebar-rect">
-        <h1>ESCRITÓRIO<br>ADVOCACIA</h1>
+        <h1>ESCRITÓRIO</h1>
+        <h2>ADVOCACIA</h2>
         <hr>
         <p>Especialistas em Direito do Trabalho & Cível</p>
     </div>
@@ -63,7 +64,7 @@
     </div>
     <section id="nossa-visao" class="nossa-visao">
         <div class="content">
-            <h2>Nossa Visão</h2>
+            <h2>NOSSA VISÃO</h2>
             <p>A Conexão Advocacia visa ser reconhecida como um escritório de advocacia líder e inovador, comprometido com a excelência jurídica e a justiça social. Nosso objetivo é criar um impacto positivo na sociedade, oferecendo soluções jurídicas personalizadas e eficientes, que atendam às necessidades específicas de cada cliente.
                 Queremos ser a ponte que conecta nossos clientes às soluções legais mais adequadas, proporcionando um atendimento humano, ético e transparente. Nossa visão é construir um futuro onde a justiça seja acessível a todos, promovendo a inclusão, a equidade e o desenvolvimento sustentável.
                 Ao integrar tecnologia de ponta com a expertise jurídica, aspiramos a redefinir o mercado legal, tornando-o mais ágil, eficaz e próximo das pessoas. Nos próximos anos, pretendemos expandir nossa atuação, estabelecendo parcerias estratégicas e consolidando nossa presença em diversas áreas do direito, sempre pautados pelos valores que nos definem: integridade, compromisso e inovação.</p>
@@ -73,7 +74,7 @@
    
     <section id="advogados" class="advogados">
         <div class="container">
-            <h1>Nossos Advogados</h1>
+            <h1>NOSSOS ADVOGADOS</h1>
             <div class="profile-list">
                 <div class="profile">
                     <img src="./imgs/matheus.JPG" alt="Matheus Villar">
