@@ -72,72 +72,91 @@
     </section>
 
    
-    <section id="advogados" class="advogados">
-        <div class="container">
-            <h1>NOSSOS ADVOGADOS</h1>
-            <div class="profile-list">
-                <div class="profile">
-                    <img src="./imgs/matheus.JPG" alt="Matheus Villar">
-                    <h2>Matheus Villar</h2>
-                    <p>Sócio</p>
-                    <button onclick="location.href='https://wa.me/5512777777777'">Chamar no WhatsApp</button>
-                </div>
-                <div class="profile">
-                    <img src="./imgs/eu.JPG" alt="Pedro">
-                    <h2>Pedro Zocatelli</h2>
-                    <p>Advogado Associado</p>
-                    <button onclick="location.href='https://wa.me/5512888888888'">Chamar no WhatsApp</button>
-                </div>
-                <div class="profile">
-                    <img src="./imgs/rian.JPG" alt="Rian">
-                    <h2>Rian</h2>
-                    <p>Advogado Júnior</p>
-                    <button onclick="location.href='https://wa.me/5512999999999'">Chamar no WhatsApp</button>
-                </div>
-                <div class="profile">
-                    <img src="./imgs/gustavo.JPG" alt="Gustavo">
-                    <h2>Gustavo Henrique</h2>
-                    <p>Advogado Pleno</p>
-                    <button onclick="location.href='https://wa.me/5512666666666'">Chamar no WhatsApp</button>
-                </div>
-                <div class="profile">
-                    <img src="./imgs/kaua.JPG" alt="Kaua">
-                    <h2>Kaua </h2>
-                    <p>Estagiário</p>
-                    <button onclick="location.href='https://wa.me/5512555555555'">Chamar no WhatsApp</button>
-                </div>
+   <section id="advogados" class="advogados">
+    <h1>NOSSOS ADVOGADOS</h1>
+    <div class="profile-list">
+        <div class="profile">
+            <img src="./imgs/matheus.JPG" alt="Matheus Villar">
+            <h2>Matheus Villar</h2>
+            <p>ADVOGADO - OAB 123/456</p>
+            <span>Especialista em Imóveis</span>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
+            <button onclick="location.href='https://wa.me/5512777777777'">Chamar no WhatsApp</button>
+        </div>
+        <div class="profile">
+            <img src="./imgs/eu.JPG" alt="Pedro">
+            <h2>Pedro Zocatelli</h2>
+            <p>ADVOGADO - OAB 456/789</p>
+            <span>Especialista em Direito Empresarial</span>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button onclick="location.href='https://wa.me/5512888888888'">Chamar no WhatsApp</button>
+        </div>
+        <div class="profile">
+            <img src="./imgs/rian.JPG" alt="Rian">
+            <h2>Rian</h2>
+            <p>ADVOGADO - OAB 789/012</p>
+            <span>Especialista em Direito Civil</span>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button onclick="location.href='https://wa.me/5512999999999'">Chamar no WhatsApp</button>
+        </div>
+    </div>
+</section>
+
+
+<section id="contato" class="contato">
+    <section class="contact-form">
+        <div class="left">
+            <h2>OBTENHA UMA AVALIAÇÃO DE CASO GRATUITA HOJE MESMO!</h2>
+            <p>DISPONÍVEL 24 HORAS POR DIA!</p>
+            <form>
+                <input type="text" placeholder="Digite seu nome" required>
+                <input type="email" placeholder="Digite um email válido" required>
+                <textarea placeholder="Escreva sua mensagem" required></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+        <div class="right">
+            <h3>ESTAMOS AQUI</h3>
+            <p>SEG-SEX DAS 8H30 ÀS 17H / TELEFONES ABERTOS 24 HORAS POR DIA, 7 DIAS POR SEMANA</p>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14678.15760221945!2d-45.7070424!3d-23.1139511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc53fe5d561195%3A0xf8b1e6391017595b!2sSesi%20Ca%C3%A7apava!5e0!3m2!1spt-BR!2sbr!4v1730221419198!5m2!1spt-BR!2sbr"
+            width="400" 
+            height="220" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
         </div>
     </section>
 
-    <section id="contato" class="contato">
-        <div class="content2">
-            
-            <h1>Entre em <br>Contato Conosco</h1>
+    <div class="info-block">
+        <div class="contact-item">
+            <h3>NOS LIGUE</h3>
+            <p>+55 (12) 3567-8912<br>+55 (12) 99387-6542</p>
         </div>
-        <div class="content3">
-            <h2>Nosso endereço</h2>
-            <p>Edificio Olimpus Offices, R.José <br>
-            Augusto dos Santos, 108 - sala 106 - <br>
-            Floradas de São José dos <br>
-            Campos - (12) 77777-7777</p>
-            <br>
-            <a href="">Clique aqui para ver nossa localização</a>
-            <br>
-            <h1>Para qualquer solicitação, preencha os campos no formulario abaixo:</h1>
+        <div class="contact-item">
+            <h3>LOCALIZAÇÃO</h3>
+            <p>Av. Monsenhor Theodomiro Lobo, Maria Elmira,<br>Caçapava - SP, 12285-050</p>
             
-            
-            
-            <input type="text" id="usuario" name="usuario" placeholder="E-mail ou nome de usuário" required> <br>
-            <input type="password" id="password" name="password" placeholder="Senha" required> <br>
-            <input type="text" id="telefone" name="telefone" placeholder="Telefone" required>
-            <br>
-            <br>
-            <input type="text" id="comentario" name="comentario" placeholder="Digite sua mensagem aqui..." required> <br>
-            <button id="enviar">Enviar</button>
-
         </div>
-    </section>
+        <div class="contact-item">
+            <h3>HORÁRIOS</h3>
+            <p>Segunda a Sexta das 8H30 ÀS 20H , Sáb e Dom das 9h às 18h</p>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

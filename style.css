@@ -82,7 +82,7 @@ body, html {
 .sidebar-rect {
     position: absolute; 
     left: 0;
-    height: calc(109% - 40px); 
+    height: calc(109% - 0px); 
     width: 550px; 
     background-color: rgba(128, 0, 0, 0.7); 
     z-index: 500; 
@@ -153,115 +153,87 @@ body, html {
 }
 
 h1 {
-    color: #B22222;
+    color: #000000;
     margin-bottom: 20px;
 }
 
-.profile img {
-    width: 90%;
-    height: auto;
-    border-radius: 0; 
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    margin-bottom: 15px;
-}
-
-
-.profile h2 {
-    margin: 10px 0 5px;
-    color: #333;
-}
-
-.profile p {
-    margin: 5px 0;
-    color: #B22222;
-}
-
-button {
-    background-color: #B22222;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-button:hover {
-    background-color: #8B0000;
-}
-
-.advogados .container {
+.advogados {
     text-align: center;
-    width: 100%;
-    padding: 220px 0; 
+    padding: 40px;
+    height: 550px;
+   
+}
+
+.advogados h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .profile-list {
     display: flex;
-    justify-content: space-around; 
-    flex-wrap: nowrap; 
-    gap: 20px; 
-    max-width: 100%;
-    overflow-x: auto; 
-}
-.advogados {
-    position: relative; 
+    flex-wrap: wrap;
+    justify-content: center;
+ 
 }
 
-.advogados h1 {
-
-    font-size: 30px; 
-    color: #ba0000;
-    text-align: center; 
-    position: absolute; 
-    top: 90px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0; 
-    font-family: Arial, sans-serif;
+.profile {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-
-.contato {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #800000;
-    color: #FFFFFF;
+.profile:hover {
+    transform: translateY(-10px);
 }
 
-.content2 {
-    background-color: #800000;
-    padding-left: 200px;
-    font-size: larger;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.content3 {
-    background-color: #660000;
-    padding-right: 200px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 800px;
-}
-
-.content3 a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#comentario {
-    width: 300px;
+.profile img {
+    width: 100px;
     height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-#enviar {
-    height: 30px;
-    width: 70px;
-    background-color: #b80000;
+.profile h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 0.9em;
+    color: #4b4343;
+}
+
+.profile span {
+    font-size: 0.8em;
+    color: #888;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
     color: white;
-    border-radius: 10px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #952525;
+}
+.contato{
+    font-family: Arial, sans-serif;
+    background-image: url(./imgs/imafff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;   
 }
 
 .container {
@@ -330,4 +302,143 @@ button:hover {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./imgs/imafff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;            
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px;
+}
+
+.left, .right {
+    width: 48%; /* Adjust the width to keep both sections side-by-side */
+    padding: 60px;
+}
+
+.left h2, .right h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.left p, .right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    width: 87%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e65c00;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 400px;
+    border: 0;
+   
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 20px;
+    margin: auto;
+    padding: 60px;
+    height: 230px;
+}
+.info-block p{
+    padding: 15px;
+}
+
+.contact-item {
+    background-color: #e65c00;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .left, .right {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .info-block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
