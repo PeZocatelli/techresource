@@ -157,19 +157,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.advogados {
-    text-align: center;
-    padding: 40px;
-    height: 550px;
-   
-}
 
-.advogados h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    padding: 20px;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-}
 
 .profile-list {
     display: flex;
@@ -441,4 +429,104 @@ footer a {
         width: 100%;
         margin-bottom: 10px;
     }
+}
+.seja-advogado {
+    height: 100vh; /* Altura da seção */
+    background: url('imgs/sejaadv.png') no-repeat center center/cover; /* Imagem de fundo */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: flex-start; /* Alinha à esquerda */
+    align-items: center; /* Centraliza verticalmente */
+    color: white; /* Cor do texto */
+    padding-left: 48px; /* Espaçamento à esquerda */
+    position: relative; /* Para a sobreposição */
+    width: 100vw; /* Ocupa a largura total da tela */
+    filter: brightness(1.2); /* Aumenta o brilho da imagem */
+}
+
+.seja-advogado .overlay {
+    position: absolute; /* Para cobrir a imagem de fundo */
+    top: 0; /* Alinhado ao topo */
+    left: 0; /* Alinhado à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+}
+
+.seja-advogado .content {
+    z-index: 1; /* Para garantir que o conteúdo fique acima da sobreposição */
+    max-width: 40%; /* Limita a largura do conteúdo a 40% da página */
+}
+
+.seja-advogado h1 {
+    font-size: 45px; /* Tamanho do título */
+    margin: 10px 0 20px; /* Margem superior menor para elevar o título */
+    font-family: 'Georgia', serif; /* Fonte formal */
+    color: white; /* Título em branco */
+}
+
+.seja-advogado p {
+    font-size: 1.1em; /* Aumenta o tamanho da fonte da descrição apenas nesta seção */
+    margin-bottom: 20px; /* Margem inferior */
+    font-family: 'Arial', sans-serif; /* Fonte para a descrição */
+}
+
+.seja-advogado .cadastrar-button:hover {
+    background-color: #6F4C3E; /* Cor ao passar o mouse */
+}
+.seja-advogado .cadastrar-button {
+    padding: 10px 20px; /* Espaçamento do botão */
+    background-color: #800000; /* Cor marrom do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    width: 90%; /* Reduz a largura do botão para 90% do contêiner */
+    max-width: 300px; /* Largura máxima do botão para controle */
+    text-align: center; /* Alinha o texto do botão ao centro */
+    margin-top: 20px; /* Espaçamento superior ao botão */
+}
+#nossa-visao {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+
+#nossa-visao .contentt {
+    display: flex;
+    align-items: flex-start; /* Alinha logo e texto no topo */
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#nossa-visao .logo {
+    width: 250px; /* Tamanho ajustável da logo */
+    height: auto;
+    margin-right: 40px; /* Espaço entre a logo e o texto */
+    border: 2px solid #800000;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+#nossa-visao .text-content {
+    width: 100%; /* Ocupa o restante do espaço para o texto */
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+#nossa-visao h2 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+#nossa-visao p {
+    font-size: 1.4em;
+    line-height: 1.8;
+    font-family: 'Georgia', serif;
+    color: #333333;
 }

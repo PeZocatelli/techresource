@@ -61,58 +61,36 @@
                     trabalhistas, homologação de acordos.</li>
             </ul>
         </div>
+    </div>    
+    <section id="advogados" class="seja-advogado">
+    <div class="overlay"></div> <!-- Sobreposição escura -->
+    <div class="content">
+        <h1>Seja Advogado com a Gente</h1>
+        <p>Cadastre-se para participar e compartilhar seu trabalho conosco. Junte-se a nós e faça parte de uma equipe dedicada ao crescimento e à excelência na advocacia.</p>
+        <button class="cadastrar-button" onclick="location.href='#contato'">Cadastrar</button>
     </div>
-    <section id="nossa-visao" class="nossa-visao">
-        <div class="content">
-            <h2>NOSSA VISÃO</h2>
-            <p>A Conexão Advocacia visa ser reconhecida como um escritório de advocacia líder e inovador, comprometido com a excelência jurídica e a justiça social. Nosso objetivo é criar um impacto positivo na sociedade, oferecendo soluções jurídicas personalizadas e eficientes, que atendam às necessidades específicas de cada cliente.
-                Queremos ser a ponte que conecta nossos clientes às soluções legais mais adequadas, proporcionando um atendimento humano, ético e transparente. Nossa visão é construir um futuro onde a justiça seja acessível a todos, promovendo a inclusão, a equidade e o desenvolvimento sustentável.
-                Ao integrar tecnologia de ponta com a expertise jurídica, aspiramos a redefinir o mercado legal, tornando-o mais ágil, eficaz e próximo das pessoas. Nos próximos anos, pretendemos expandir nossa atuação, estabelecendo parcerias estratégicas e consolidando nossa presença em diversas áreas do direito, sempre pautados pelos valores que nos definem: integridade, compromisso e inovação.</p>
-        </div>
-    </section>
+</section>
+<section id="nossa-visao" class="nossa-visao">
+    <div class="contentt">
+        <!-- Logo à esquerda -->
+        <img src="imgs/CA.png" class="logo" alt="Logo CA">
 
-   
-   <section id="advogados" class="advogados">
-    <h1>NOSSOS ADVOGADOS</h1>
-    <div class="profile-list">
-        <div class="profile">
-            <img src="./imgs/matheus.JPG" alt="Matheus Villar">
-            <h2>Matheus Villar</h2>
-            <p>ADVOGADO - OAB 123/456</p>
-            <span>Especialista em Imóveis</span>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <button onclick="location.href='https://wa.me/5512777777777'">Chamar no WhatsApp</button>
-        </div>
-        <div class="profile">
-            <img src="./imgs/eu.JPG" alt="Pedro">
-            <h2>Pedro Zocatelli</h2>
-            <p>ADVOGADO - OAB 456/789</p>
-            <span>Especialista em Direito Empresarial</span>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <button onclick="location.href='https://wa.me/5512888888888'">Chamar no WhatsApp</button>
-        </div>
-        <div class="profile">
-            <img src="./imgs/rian.JPG" alt="Rian">
-            <h2>Rian</h2>
-            <p>ADVOGADO - OAB 789/012</p>
-            <span>Especialista em Direito Civil</span>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <button onclick="location.href='https://wa.me/5512999999999'">Chamar no WhatsApp</button>
+        
+        <!-- Texto à direita -->
+        <div class="text-content">
+            <h2 class="tex">NOSSA VISÃO</h2>
+            <p class="tex">
+                A Conexão Advocacia visa ser reconhecida como um escritório de advocacia líder e inovador, comprometido com a excelência jurídica e a justiça social. Nosso objetivo é criar um impacto positivo na sociedade, oferecendo soluções jurídicas personalizadas e eficientes, que atendam às necessidades específicas de cada cliente.
+                Queremos ser a ponte que conecta nossos clientes às soluções legais mais adequadas, proporcionando um atendimento humano, ético e transparente. Nossa visão é construir um futuro onde a justiça seja acessível a todos, promovendo a inclusão, a equidade e o desenvolvimento sustentável.
+                Ao integrar tecnologia de ponta com a expertise jurídica, aspiramos a redefinir o mercado legal, tornando-o mais ágil, eficaz e próximo das pessoas. Nos próximos anos, pretendemos expandir nossa atuação, estabelecendo parcerias estratégicas e consolidando nossa presença em diversas áreas do direito, sempre pautados pelos valores que nos definem: integridade, compromisso e inovação.
+            </p>
         </div>
     </div>
 </section>
+
+
+
+
 
 
 <section id="contato" class="contato">
