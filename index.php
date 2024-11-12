@@ -1,4 +1,5 @@
 
+<?php include 'db_connection.php'; ?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -21,9 +22,9 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-</section>
-<section id="inicio" class="Início">
-    
+    </section>
+    <section id="inicio" class="Início">
+        
     </section>
     
     <div class="sidebar-rect">
@@ -32,31 +33,22 @@
         <hr>
         <p>Especialistas em Direito do Trabalho & Cível</p>
     </div>
-    
+
     <div class="background">
         <button  class="whatsapp-button">Chamar via WhatsApp</button>
     </div>
-    <section id="advogados" class="seja-advogado">
-    <div class="overlay"></div> <!-- Sobreposição escura -->
-    <div class="content">
-        <h1>Nossa Visão</h1>
-        <p>A Conexão Advocacia busca ser líder no setor, oferecendo soluções jurídicas inovadoras e acessíveis, com foco em justiça social, tecnologia e ética, enquanto promovemos inclusão, sustentabilidade e excelência.
-    </p>
-       
-    </div>
-    </section>
-    <div class="container">
+ <div class="container">
         <section id="area-atuacao" class="Área de Atuação">
-            
-            </section>
-            
-            <div class="divisao">
-                <h1>ÁREAS DE ATUAÇÃO</h1>
-                <img src="./imgs/martelo.jpg" alt="Imagem jurídica">
-            </div>
-            <div class="content">
-                <ul>
-                    <li><strong>Direito civil:</strong> representa interesses individuais em casos relacionados à
+        
+        </section>
+    
+        <div class="divisao">
+            <h1>ÁREAS DE ATUAÇÃO</h1>
+            <img src="./imgs/martelo.jpg" alt="Imagem jurídica">
+        </div>
+        <div class="content">
+            <ul>
+                <li><strong>Direito civil:</strong> representa interesses individuais em casos relacionados à
                     propriedade, bens ou questões familiares.</li>
                 <li><strong>Direito administrativo:</strong> trata de leis que regulamentam órgãos e poderes públicos, e
                     sua relação com a sociedade.</li>
@@ -72,6 +64,39 @@
             </ul>
         </div>
     </div>    
+    <section id="advogados" class="seja-advogado">
+    <div class="overlay"></div> <!-- Sobreposição escura -->
+    <div class="content">
+        <h1>Seja Advogado com a Gente</h1>
+        <p>Cadastre-se para participar e compartilhar seu trabalho conosco. Junte-se a nós e faça parte de uma equipe dedicada ao crescimento e à excelência na advocacia.</p>
+        <button class="cadastrar-button" onclick="location.href='perfil.php'">Cadastrar</button>
+    </div>
+</section>
+<section id="nossa-visao" class="nossa-visao">
+    <div class="contentt">
+        <!-- Texto à direita -->
+        <div class="text-content">
+            <h2 class="tex">NOSSA VISÃO</h2>
+            <p class="tex">
+                A Conexão Advocacia visa ser reconhecida como um escritório de advocacia líder e inovador, comprometido com a excelência jurídica e a justiça social. Nosso objetivo é criar um impacto positivo na sociedade, oferecendo soluções jurídicas personalizadas e eficientes, que atendam às necessidades específicas de cada cliente.
+                Queremos ser a ponte que conecta nossos clientes às soluções legais mais adequadas, proporcionando um atendimento humano, ético e transparente. Nossa visão é construir um futuro onde a justiça seja acessível a todos, promovendo a inclusão, a equidade e o desenvolvimento sustentável.
+                Ao integrar tecnologia de ponta com a expertise jurídica, aspiramos a redefinir o mercado legal, tornando-o mais ágil, eficaz e próximo das pessoas. Nos próximos anos, pretendemos expandir nossa atuação, estabelecendo parcerias estratégicas e consolidando nossa presença em diversas áreas do direito, sempre pautados pelos valores que nos definem: integridade, compromisso e inovação.
+            </p>
+        </div>
+    
+        
+        <!-- Imagem à esquerda -->
+        <div class="tex">
+          
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
 
 <section id="contato" class="contato">
     <section class="contact-form">
