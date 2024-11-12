@@ -461,7 +461,7 @@ footer a {
     font-size: 45px; /* Tamanho do título */
     margin: 10px 0 20px; /* Margem superior menor para elevar o título */
     font-family: 'Georgia', serif; /* Fonte formal */
-    color: white; /* Título em branco */
+    color: rgb(102, 10, 0); /* Título em branco */
 }
 
 .seja-advogado p {
@@ -476,7 +476,7 @@ footer a {
 .seja-advogado .cadastrar-button {
     padding: 10px 20px; /* Espaçamento do botão */
     background-color: #800000; /* Cor marrom do botão */
-    color: white; /* Cor do texto do botão */
+    color: rgb(123, 0, 0); /* Cor do texto do botão */
     border: none; /* Remove borda do botão */
     border-radius: 5px; /* Cantos arredondados */
     cursor: pointer; /* Cursor de ponteiro */
@@ -489,44 +489,48 @@ footer a {
 #nossa-visao {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
-    padding: 60px 40px;
+    background-size: cover; /* Faz com que a imagem cubra toda a área da seção */
+    background-position: center; /* Centraliza a imagem de fundo */
+    padding: 60px 20px;
     border-top: 2px solid #800000;
     border-bottom: 2px solid #800000;
 }
 
 #nossa-visao .contentt {
     display: flex;
-    align-items: flex-start; /* Alinha logo e texto no topo */
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
     max-width: 1200px;
-    margin: auto;
-}
-
-#nossa-visao .logo {
-    width: 250px; /* Tamanho ajustável da logo */
-    height: auto;
-    margin-right: 40px; /* Espaço entre a logo e o texto */
-    border: 2px solid #800000;
-    padding: 10px;
-    align-self: flex-start;
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco semi-transparente para melhorar a legibilidade */
+    padding: 20px; /* Espaçamento interno para destacar o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais moderno */
 }
 
 #nossa-visao .text-content {
-    width: 100%; /* Ocupa o restante do espaço para o texto */
-    text-align: left; /* Texto alinhado à esquerda */
-}
-
-#nossa-visao h2 {
-    font-size: 2.8em;
-    font-weight: bold;
-    color: #800000;
-    margin-bottom: 20px;
-}
-
-#nossa-visao p {
+    text-align: left;
     font-size: 1.4em;
     line-height: 1.8;
     font-family: 'Georgia', serif;
     color: #333333;
+    max-width: 60%;
+    padding-right: 20px;
+}
+
+#nossa-visao h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 15px;
+}
+
+#nossa-visao img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    align-self: flex-start;
+    margin-left: auto;
+}
+h1 {
+    color: #800000;
 }
