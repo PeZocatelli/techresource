@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding: 45px 0px;
+    padding: 40px 0px;
     background: rgb(255,255,255); 
     position: fixed;
     top: 0; 
@@ -48,11 +48,11 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 .background {
-    background-image: url('./imgs/advcacia.png'); 
+    background-image: url('./imgs/asdv.jpg'); 
     background-size: cover;
     background-position: center; 
     height: 109%;
@@ -82,7 +82,7 @@ body, html {
 .sidebar-rect {
     position: absolute; 
     left: 0;
-    height: calc(109% - 40px); 
+    height: calc(109% - 0px); 
     width: 550px; 
     background-color: rgba(128, 0, 0, 0.7); 
     z-index: 500; 
@@ -91,7 +91,7 @@ body, html {
     align-items: center;
     justify-content: center; 
     padding: 20px;
-    color: #FFFFFF; 
+    color: #ffffff; 
     font-family: Arial, sans-serif;
     text-align: center; 
     box-sizing: border-box 0px;
@@ -99,7 +99,13 @@ body, html {
 
 .sidebar-rect h1 {
     margin: 0;
-    font-size: 44px; 
+    font-size: 28px; 
+    margin-bottom: 5px; 
+    color: #FFFFFF; 
+}
+.sidebar-rect h2 {
+    margin: 0;
+    font-size: 28px; 
     margin-bottom: 5px; 
     color: #FFFFFF; 
 }
@@ -117,6 +123,12 @@ body, html {
     margin-top: 10px; 
     color: #FFFFFF; 
 }
+.divisao h1{
+    margin: 0;
+    font-size: 28px; 
+    margin-bottom: 5px; 
+    color: #FFFFFF; 
+}
 
 .nossa-visao {
     background-color: #6f0101; 
@@ -128,127 +140,88 @@ body, html {
 
 .nossa-visao h2 {
     margin-bottom: 20;
-    font-size: 38px;
+    font-size: 33px;
     text-align: start; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .nossa-visao p {
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-bottom: 10px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #B22222;
+    color: #000000;
     margin-bottom: 20px;
 }
 
-.profile img {
-    width: 90%;
-    height: auto;
-    border-radius: 0; 
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    margin-bottom: 15px;
-}
 
-
-.profile h2 {
-    margin: 10px 0 5px;
-    color: #333;
-}
-
-.profile p {
-    margin: 5px 0;
-    color: #B22222;
-}
-
-button {
-    background-color: #B22222;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-button:hover {
-    background-color: #8B0000;
-}
-
-.advogados .container {
-    text-align: center;
-    width: 100%;
-    padding: 220px 0; 
-}
 
 .profile-list {
     display: flex;
-    justify-content: space-around; 
-    flex-wrap: nowrap; 
-    gap: 20px; 
-    max-width: 100%;
-    overflow-x: auto; 
-}
-.advogados {
-    position: relative; 
+    flex-wrap: wrap;
+    justify-content: center;
+ 
 }
 
-.advogados h1 {
-
-    font-size: 38px; 
-    color: #B22222;
-    text-align: center; 
-    position: absolute; 
-    top: 90px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0; 
+.profile {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-
-.contato {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #800000;
-    color: #FFFFFF;
+.profile:hover {
+    transform: translateY(-10px);
 }
 
-.content2 {
-    background-color: #800000;
-    padding-left: 200px;
-    font-size: larger;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.content3 {
-    background-color: #660000;
-    padding-right: 200px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 800px;
-}
-
-.content3 a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#comentario {
-    width: 300px;
+.profile img {
+    width: 100px;
     height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-#enviar {
-    height: 30px;
-    width: 70px;
-    background-color: #b80000;
+.profile h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 0.9em;
+    color: #4b4343;
+}
+
+.profile span {
+    font-size: 0.8em;
+    color: #888;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
     color: white;
-    border-radius: 10px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #952525;
+}
+.contato{
+    font-family: Arial, sans-serif;
+    background-image: url(./imgs/imafff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;   
 }
 
 .container {
@@ -259,6 +232,12 @@ button:hover {
     justify-content: space-between; 
     align-items: flex-start; 
     padding: 0px;
+}
+
+.container h1{
+    padding: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .divisao {
@@ -272,6 +251,9 @@ button:hover {
 
 .divisao h1 {
     color: #8B0000;
+    
+    font-size: 40px;
+  
 }
 
 .content {
@@ -308,4 +290,247 @@ button:hover {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./imgs/imafff.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;            
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px;
+}
+
+.left, .right {
+    width: 48%; /* Adjust the width to keep both sections side-by-side */
+    padding: 60px;
+}
+
+.left h2, .right h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.left p, .right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    width: 87%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e65c00;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 400px;
+    border: 0;
+   
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 20px;
+    margin: auto;
+    padding: 60px;
+    height: 230px;
+}
+.info-block p{
+    padding: 15px;
+}
+
+.contact-item {
+    background-color: #e65c00;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .left, .right {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .info-block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.seja-advogado {
+    height: 100vh; /* Altura da seção */
+    background: url('imgs/sejaadv.png') no-repeat center center/cover; /* Imagem de fundo */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: flex-start; /* Alinha à esquerda */
+    align-items: center; /* Centraliza verticalmente */
+    color: white; /* Cor do texto */
+    padding-left: 48px; /* Espaçamento à esquerda */
+    position: relative; /* Para a sobreposição */
+    width: 100vw; /* Ocupa a largura total da tela */
+    filter: brightness(1.2); /* Aumenta o brilho da imagem */
+}
+
+.seja-advogado .overlay {
+    position: absolute; /* Para cobrir a imagem de fundo */
+    top: 0; /* Alinhado ao topo */
+    left: 0; /* Alinhado à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+}
+
+.seja-advogado .content {
+    z-index: 1; /* Para garantir que o conteúdo fique acima da sobreposição */
+    max-width: 40%; /* Limita a largura do conteúdo a 40% da página */
+}
+
+.seja-advogado h1 {
+    font-size: 45px; /* Tamanho do título */
+    margin: 10px 0 20px; /* Margem superior menor para elevar o título */
+    font-family: 'Georgia', serif; /* Fonte formal */
+    color: rgb(102, 10, 0); /* Título em branco */
+}
+
+.seja-advogado p {
+    font-size: 1.1em; /* Aumenta o tamanho da fonte da descrição apenas nesta seção */
+    margin-bottom: 20px; /* Margem inferior */
+    font-family: 'Arial', sans-serif; /* Fonte para a descrição */
+}
+
+.seja-advogado .cadastrar-button:hover {
+    background-color: #6F4C3E; /* Cor ao passar o mouse */
+}
+.seja-advogado .cadastrar-button {
+    padding: 10px 20px; /* Espaçamento do botão */
+    background-color: #800000; /* Cor marrom do botão */
+    color: rgb(123, 0, 0); /* Cor do texto do botão */
+    border: none; /* Remove borda do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    width: 90%; /* Reduz a largura do botão para 90% do contêiner */
+    max-width: 300px; /* Largura máxima do botão para controle */
+    text-align: center; /* Alinha o texto do botão ao centro */
+    margin-top: 20px; /* Espaçamento superior ao botão */
+}
+#nossa-visao {
+    display: flex;
+    justify-content: center;
+    background-size: cover; /* Faz com que a imagem cubra toda a área da seção */
+    background-position: center; /* Centraliza a imagem de fundo */
+    padding: 60px 20px;
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+
+#nossa-visao .contentt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco semi-transparente para melhorar a legibilidade */
+    padding: 20px; /* Espaçamento interno para destacar o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais moderno */
+}
+
+#nossa-visao .text-content {
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 1.8;
+    font-family: 'Georgia', serif;
+    color: #333333;
+    max-width: 60%;
+    padding-right: 20px;
+}
+
+#nossa-visao h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #800000;
+    margin-bottom: 15px;
+}
+
+#nossa-visao img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    align-self: flex-start;
+    margin-left: auto;
+}
+h1 {
+    color: #800000;
 }
