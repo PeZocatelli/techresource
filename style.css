@@ -534,3 +534,17 @@ footer a {
 h1 {
     color: #800000;
 }
+#advogados .seja-advogado .content button {
+    background-color: #952525;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0; /* deixa o botão quadrado */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#advogados .seja-advogado .content button:hover {
+    background-color: #701c1c; /* efeito hover para um tom mais escuro */
+}
