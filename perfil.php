@@ -16,7 +16,7 @@
                 suas áreas de atuação e entrar em contato. Certifique-se de fornecer dados completos e atualizados para que possamos 
                 criar uma página que reflita sua experiência e compromisso profissional.
             </p>
-            <a href="perfiladv.php" class="btn-create-profile">Criar perfil</a>
+            <a href="inicioCadastro.php" class="btn-create-profile">Criar perfil</a>
         </div>
         <div class="profile-image"></div>
     </div>
