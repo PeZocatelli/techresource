@@ -36,15 +36,7 @@
     <div class="background">
         <button class="whatsapp-button">Chamar via WhatsApp</button>
     </div>
-    <section id="advogados" class="seja-advogado">
-    <div class="overlay"></div> <!-- Sobreposição escura -->
-    <div class="content">
-        <h1>Nossa Visão</h1>
-        <p>A Conexão Advocacia busca ser líder no setor, oferecendo soluções jurídicas inovadoras e acessíveis, com foco em justiça social, tecnologia e ética, enquanto promovemos inclusão, sustentabilidade e excelência.
-    </p>
-       
-    </div>
-    </section>
+    
     <div class="container">
         <section id="area-atuacao" class="Área de Atuação">
             
@@ -69,7 +61,7 @@
             </ul>
         </div>
     </div>    
-<<<<<<< HEAD
+
     <section id="advogados" class="seja-advogado">
     <div class="overlay"></div> <!-- Sobreposição escura -->
     <div class="content">
@@ -99,7 +91,7 @@ Nos próximos anos, planejamos expandir nossa atuação com parcerias estratégi
 
         </div>
 </section>
-=======
+
 
     <section id="contato" class="contato">
         <section class="contact-form">
@@ -113,7 +105,7 @@ Nos próximos anos, planejamos expandir nossa atuação com parcerias estratégi
                     <button type="submit">ENVIAR</button>
                 </form>
             </div>
->>>>>>> fcf27ca4e1a567f94b0b789e7cd8fb1f59e29ff4
+
 
             <div class="right">
                 <h3>ESTAMOS AQUI</h3>
