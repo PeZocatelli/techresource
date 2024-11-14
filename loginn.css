@@ -176,27 +176,3 @@ body {
 .no-account a:hover {
     text-decoration: underline;
 }
-/* Estilos gerais para o botão */
-.register-btn {
-    background: linear-gradient(45deg, #8e44ad, #c0392b); /* Gradiente de cor */
-    color: white;
-    font-size: 18px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    transition: all 0.3s ease; /* Transição suave */
-}
-
-/* Efeito ao passar o mouse */
-.register-btn:hover {
-    background: linear-gradient(45deg, #c0392b, #8e44ad); /* Inverter as cores do gradiente */
-    transform: scale(1.05); /* Leve aumento do botão */
-}
-
-/* Efeito quando o botão é pressionado */
-.register-btn:active {
-    transform: scale(1); /* Retorno ao tamanho normal */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombras para o efeito de clique */
-}
