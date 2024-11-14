@@ -11,10 +11,7 @@
         <div class="profile-info">
             <h1>Perfil Profissional</h1>
             <p>
-                Preencha seu perfil com as informações necessárias para que o seu nome e especialidades apareçam em nosso site. 
-                Essas informações são essenciais para que clientes em busca de assistência jurídica possam conhecê-lo, encontrar 
-                suas áreas de atuação e entrar em contato. Certifique-se de fornecer dados completos e atualizados para que possamos 
-                criar uma página que reflita sua experiência e compromisso profissional.
+            Preencha seu perfil com seu nome e especialidades para que clientes possam conhecê-lo, saber suas áreas de atuação e entrar em contato. Forneça informações completas e atualizadas para que possamos criar uma página que reflita sua experiência profissional.
             </p>
             <a href="perfiladv.php" class="btn-create-profile">Criar perfil</a>
         </div>
