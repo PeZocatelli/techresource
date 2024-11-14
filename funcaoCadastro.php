@@ -1,15 +1,33 @@
 <?php
-function cadastrarUsuario($pdo, $email, $senha) {
-    $senhaCriptografada = password_hash($senha, PASSWORD_DEFAULT);
-    // Alterando a tabela de 'usuarios' para 'cadastros'
-    $stmt = $pdo->prepare("INSERT INTO cadastros (email, senha) VALUES (:email, :senha)");
+function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $senha) {
+    // Verifica se o email já está cadastrado
+    $sql = "SELECT * FROM cadastros WHERE email = :email";
+    $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':senha', $senhaCriptografada);
+    $stmt->execute();
+    $usuarioExistente = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if ($stmt->execute()) {
-        echo "Usuário cadastrado com sucesso!";
+    if ($usuarioExistente) {
+        echo "Este e-mail já está registrado.";
     } else {
-        echo "Erro ao cadastrar usuário.";
+        // Criptografa a senha
+        $senhaHash = password_hash($senha, PASSWORD_BCRYPT);
+        
+        // Insere o novo usuário no banco de dados, incluindo os novos campos
+        $sqlInsert = "INSERT INTO cadastros (nome_completo, email, telefone, cidade, senha) 
+                      VALUES (:nome_completo, :email, :telefone, :cidade, :senha)";
+        $stmtInsert = $pdo->prepare($sqlInsert);
+        $stmtInsert->bindParam(':nome_completo', $nome_completo);
+        $stmtInsert->bindParam(':email', $email);
+        $stmtInsert->bindParam(':telefone', $telefone);
+        $stmtInsert->bindParam(':cidade', $cidade);
+        $stmtInsert->bindParam(':senha', $senhaHash);
+        
+        if ($stmtInsert->execute()) {
+            echo "Cadastro realizado com sucesso!";
+        } else {
+            echo "Erro ao cadastrar o usuário.";
+        }
     }
 }
 ?>
