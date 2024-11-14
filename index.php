@@ -83,13 +83,12 @@
                 Ao integrar tecnologia de ponta com a expertise jurídica, aspiramos a redefinir o mercado legal, tornando-o mais ágil, eficaz e próximo das pessoas. Nos próximos anos, pretendemos expandir nossa atuação, estabelecendo parcerias estratégicas e consolidando nossa presença em diversas áreas do direito, sempre pautados pelos valores que nos definem: integridade, compromisso e inovação.
             </p>
         </div>
-    
         
-        <!-- Imagem à esquerda -->
-        <div class="tex">
-          
+        
+
+        <div class="divisao2">
+            <img src="./imgs/logo advocacia.png" alt="Imagem jurídica">
         </div>
-    </div>
 </section>
 
 
