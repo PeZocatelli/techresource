@@ -130,27 +130,6 @@ body, html {
     color: #FFFFFF; 
 }
 
-.nossa-visao {
-    background-color: #6f0101; 
-    color: #ffffff; 
-    padding: 150px; 
-    margin-top: 0px; 
-    text-align: justify; 
-}
-
-.nossa-visao h2 {
-    margin-bottom: 20;
-    font-size: 33px;
-    text-align: start; 
-    font-family: Arial, sans-serif;
-}
-
-.nossa-visao p {
-    font-size: 20px;
-    line-height: 1.8;
-    margin-bottom: 10px;
-   font-family: Arial, sans-serif;
-}
 
 h1 {
     color: #000000;
@@ -163,7 +142,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
- 
+    
 }
 
 .profile {
@@ -236,7 +215,7 @@ h1 {
 
 .container h1{
     padding: 40px;
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -253,7 +232,7 @@ h1 {
     color: #8B0000;
     
     font-size: 40px;
-  
+    
 }
 
 .content {
@@ -370,7 +349,7 @@ form button:hover {
     width: 100%;
     max-width: 400px;
     border: 0;
-   
+    
 }
 
 .info-block {
@@ -419,7 +398,7 @@ footer a {
     .contact-form {
         flex-direction: column; /* Stack elements vertically on smaller screens */
     }
-
+    
     .left, .right {
         width: 100%; /* Full width on smaller screens */
         margin-bottom: 20px;
@@ -461,7 +440,7 @@ footer a {
     font-size: 45px; /* Tamanho do título */
     margin: 10px 0 20px; /* Margem superior menor para elevar o título */
     font-family: 'Georgia', serif; /* Fonte formal */
-    color: rgb(102, 10, 0); /* Título em branco */
+    color: white; /* Título em branco */
 }
 
 .seja-advogado p {
@@ -476,7 +455,7 @@ footer a {
 .seja-advogado .cadastrar-button {
     padding: 10px 20px; /* Espaçamento do botão */
     background-color: #800000; /* Cor marrom do botão */
-    color: rgb(123, 0, 0); /* Cor do texto do botão */
+    color: rgb(255, 255, 255); /* Cor do texto do botão */
     border: none; /* Remove borda do botão */
     border-radius: 5px; /* Cantos arredondados */
     cursor: pointer; /* Cursor de ponteiro */
@@ -494,6 +473,9 @@ footer a {
     padding: 60px 20px;
     border-top: 2px solid #800000;
     border-bottom: 2px solid #800000;
+    
+    font-size: 1.2em;
+   
 }
 
 #nossa-visao .contentt {
@@ -518,10 +500,10 @@ footer a {
 }
 
 #nossa-visao h2 {
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 45px;
+    margin: 10px 0 20px;
+    font-family: 'Georgia', serif;
     color: #800000;
-    margin-bottom: 15px;
 }
 
 #nossa-visao img {
@@ -548,4 +530,3 @@ h1 {
 #advogados .seja-advogado .content button:hover {
     background-color: #701c1c; /* efeito hover para um tom mais escuro */
 }
-

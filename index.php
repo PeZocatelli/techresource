@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -19,8 +21,10 @@
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-
-    <section id="inicio" class="Início"></section>
+</section>
+<section id="inicio" class="Início">
+    
+    </section>
     
     <div class="sidebar-rect">
         <h1>ESCRITÓRIO</h1>
@@ -28,37 +32,43 @@
         <hr>
         <p>Especialistas em Direito do Trabalho & Cível</p>
     </div>
-    
+
     <div class="background">
         <button class="whatsapp-button">Chamar via WhatsApp</button>
     </div>
-
     <section id="advogados" class="seja-advogado">
-        <div class="overlay"></div>
-        <div class="content">
-            <h1>Nossa Visão</h1>
-            <p>A Conexão Advocacia busca ser líder no setor, oferecendo soluções jurídicas inovadoras e acessíveis, com foco em justiça social, tecnologia e ética, enquanto promovemos inclusão, sustentabilidade e excelência.</p>
-        </div>
+    <div class="overlay"></div> <!-- Sobreposição escura -->
+    <div class="content">
+        <h1>Nossa Visão</h1>
+        <p>A Conexão Advocacia busca ser líder no setor, oferecendo soluções jurídicas inovadoras e acessíveis, com foco em justiça social, tecnologia e ética, enquanto promovemos inclusão, sustentabilidade e excelência.
+    </p>
+       
+    </div>
     </section>
-
     <div class="container">
-        <section id="area-atuacao" class="Área de Atuação"></section>
-        <div class="divisao">
-            <h1>ÁREAS DE ATUAÇÃO</h1>
-            <img src="./imgs/martelo.jpg" alt="Imagem jurídica">
-        </div>
-        <div class="content">
-            <ul>
-                <li><strong>Direito civil:</strong> representa interesses individuais em casos relacionados à propriedade, bens ou questões familiares.</li>
-                <li><strong>Direito administrativo:</strong> trata de leis que regulamentam órgãos e poderes públicos, e sua relação com a sociedade.</li>
-                <li><strong>Direito ambiental:</strong> defende o meio ambiente e os recursos naturais contra danos causados por atividades humanas.</li>
+        <section id="area-atuacao" class="Área de Atuação">
+            
+            </section>
+            
+            <div class="divisao">
+                <h1>ÁREAS DE ATUAÇÃO</h1>
+                <img src="./imgs/martelo.jpg" alt="Imagem jurídica">
+            </div>
+            <div class="content">
+                <ul>
+                    <li><strong>Direito civil:</strong> representa interesses individuais em casos relacionados à
+                    propriedade, bens ou questões familiares.</li>
+                <li><strong>Direito administrativo:</strong> trata de leis que regulamentam órgãos e poderes públicos, e
+                    sua relação com a sociedade.</li>
+                <li><strong>Direito ambiental:</strong> defende o meio ambiente e os recursos naturais contra danos
+                    causados por atividades humanas.</li>
                 <li><strong>Direito penal:</strong> atua na defesa ou acusação de pessoas envolvidas em crimes.</li>
                 <li><strong>Direito trabalhista:</strong> lida com questões relacionadas ao trabalho, como contratos, salários, direitos e deveres dos empregados e empregadores.</li>
                 <li><strong>Direito imobiliário:</strong> Compra e venda de imóveis, locação, assessoria jurídica em negócios imobiliários.</li>
                 <li><strong>Direito Consensual:</strong> Minutas contratuais, análise de casos, assessoria em relações trabalhistas, homologação de acordos.</li>
             </ul>
         </div>
-    </div>
+    </div>    
 
     <section id="contato" class="contato">
         <section class="contact-form">
