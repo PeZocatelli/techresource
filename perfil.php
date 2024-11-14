@@ -13,7 +13,7 @@
             <p>
             Preencha seu perfil com seu nome e especialidades para que clientes possam conhecê-lo, saber suas áreas de atuação e entrar em contato. Forneça informações completas e atualizadas para que possamos criar uma página que reflita sua experiência profissional.
             </p>
-            <a href="perfiladv.php" class="btn-create-profile">Criar perfil</a>
+            <a href="inicioCadastro.php" class="btn-create-profile">Criar perfil</a>
         </div>
         <div class="profile-image"></div>
     </div>
