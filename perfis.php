@@ -14,11 +14,11 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Início</a></li>
-            <li><a href="#area-atuacao">Área de Atuação</a></li>
-            <li><a href="#nossa-visao">Nossa Visão</a></li>
-            <li><a href="#advogados">Advogados</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="perfis.php">Advogados</a></li>
+            <li><a href="index.php#area-atuacao">Área de Atuação</a></li>
+            <li><a href="index.php#advogados">Advogados</a></li>
+            <li><a href="index.php#nossa-visao">Nossa Visão</a></li>
+            <li><a href="index.php#contato">Contato</a></li>
+            <li><a href="perfis.php">Encontre um Advogado</a></li>
         </ul>
     </nav>
 </section>
