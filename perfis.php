@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,11 +29,12 @@
     <section id="advogados" class="seja-advogado">
     <div class="overlay"></div> <!-- Sobreposição escura -->
     <div class="content">
-        <h1>Encontre o advogado ideal!</h1>
-        <p>Encontre o advogado ideal para atender às suas necessidades jurídicas. Aqui, você pode buscar profissionais especializados em diversas áreas do Direito, visualizar informações detalhadas sobre cada um e agendar uma consulta de forma prática e rápida.</p>
+        <h1>Encontre o seu advogado!</h1>
+        <p>Aqui você encontra profissionais especializados em diversas áreas do Direito, prontos para oferecer a melhor solução jurídica. Explore perfis detalhados, conheça a experiência de cada advogado e agende sua consulta com rapidez e praticidade. Simplifique sua busca e garanta o suporte jurídico que você merece!</p>
         <button class="cadastrar-button" onclick="location.href='perfil.php'">Encontrar</button>
     </div>
 </section>
+
 
 </body>
 </html>

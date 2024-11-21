@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px 0px;
+    background: rgb(255,255,255); 
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    position: absolute;
+    left: 180px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #800000; 
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+
+/* Define o background geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background: url('./imgs/perfildoadv.png') no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do container principal */
+.perfil-container {
+    background-color: #f3f3f3;
+    width: 90%; /* Ocupar 90% da largura da página */
+    height: 500px; /* Ocupar 85% da altura da página */
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent; /* Fundo completamente transparente */
+    border: none; /* Remove as bordas */
+    box-shadow: none
+    }
+/* Estilo do topo */
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+.topo img {
+    width: 255px;
+    height: 255px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin-right: 30px;
+}
+
+.topo h1 {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Garamond', serif;
+}
+
+.topo p {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Estilo do conteúdo */
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 300px;
+    margin-top: 100px;
+    
+
+}
+
+.descricao {
+    background-color: #b1b1b1;
+    border-radius: 60px;
+    padding: 20px;
+    height: 200px;
+    width: 70%;
+    font-family: 'Garamond', serif;
+}
+.contato {
+    background-color: #b1b1b1;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    width: 35%;
+    border-radius: 60px;
+    font-family: 'Garamond', serif;
+    
+}
+
+
+.descricao p,{
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+}
+
+.contato p {
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+
+ }
+
+/* Estilo das redes sociais */
+.redes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes img {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.nav-links li a:hover {
+    color: #b32a2a;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+}
+.nomes{
+    margin-top: -43px;
+    font-size: 32px;
+    color:black; /* Move para baixo */
+}
