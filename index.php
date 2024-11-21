@@ -66,7 +66,7 @@
     <section id="advogados" class="seja-advogado">
     <div class="overlay"></div> <!-- Sobreposição escura -->
     <div class="content">
-        <h1>Seja o advogado que o mercado procura!</h1>
+        <h1>SEJA O ADVOGADO QUE O MERCADO PROCURA!</h1>
         <p>Cadastre-se para participar e compartilhar seu trabalho conosco. Junte-se a nós e faça parte de uma equipe dedicada ao crescimento e à excelência na advocacia.</p>
         <button class="cadastrar-button" onclick="location.href='perfil.php'">Cadastrar</button>
     </div>

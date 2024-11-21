@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="perfis..css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
@@ -25,10 +25,10 @@
     
     
 
-    <section id="advogados" class="seja-advogado">
+    <section id="advogados1" class="seja-advogados">
     <div class="overlay"></div> <!-- Sobreposição escura -->
     <div class="content">
-        <h1>Encontre o advogado ideal!</h1>
+        <h1>ENCONTRE UM ADVOGADO!</h1>
         <p>Encontre o advogado ideal para atender às suas necessidades jurídicas. Aqui, você pode buscar profissionais especializados em diversas áreas do Direito, visualizar informações detalhadas sobre cada um e agendar uma consulta de forma prática e rápida.</p>
         <button class="cadastrar-button" onclick="location.href='perfil.php'">Encontrar</button>
     </div>
