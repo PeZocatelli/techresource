@@ -446,7 +446,7 @@ footer a {
     font-size: 1.1em; /* Aumenta o tamanho da fonte da descrição apenas nesta seção */
     margin-bottom: 20px; /* Margem inferior */
     font-family: 'Arial', sans-serif; /* Fonte para a descrição */
-    max-width: 52%;
+    width: 47%;
     text-align: justify;
 }
 
@@ -529,37 +529,4 @@ h1 {
 #advogados .seja-advogado .content button:hover {
     background-color: #701c1c; /* efeito hover para um tom mais escuro */
 }
-
-.nossa-visao {
-        background-color: #ffffff; 
-        color: #ffffff; 
-        padding: 40px; 
-        margin-top: 0px; 
-        text-align: justify; 
-    }
-    
-    .nossa-visao h2 {
-        margin-bottom: 20;
-        font-size: 33px;
-        text-align: start; 
-        font-family: Arial, sans-serif;
-    }
-    
-    .nossa-visao p {
-        font-size: 0.9em;
-         font-family: 'Arial', sans-serif;
-    }
-    .divisao2 {
-        width: 1%;
-        background-color: #ffffff;
-        border-radius: 0%; /* Bordas quadradas */
-        display: inline-block;
-        padding: 20px;
-        margin: 0 auto; /* Centraliza horizontalmente */
-        text-align: center; /* Centraliza o conteúdo dentro do bloco */
-         margin-top: 80px; /* Ajuste esse valor para posicionar a imagem conforme desejar */
-    }
-    
- 
-
 
