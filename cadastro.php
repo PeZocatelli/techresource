@@ -1,6 +1,6 @@
 <?php
 require_once 'conexao.php';
-require_once 'funcaoCadastro.php'; // Inclui a função apenas uma vez
+require_once 'funcaoCadastro.php'; // Inclui a função de cadastro
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Pega os dados do formulário
@@ -14,9 +14,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Verifica se as senhas coincidem
     if ($senha === $confirmarSenha) {
         // Chama a função de cadastro, passando os dados
-        cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $senha);
+        if (cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $senha)) {
+            // Redireciona para login.php se o cadastro for bem-sucedido
+            echo "<script>
+                    alert('Cadastro realizado com sucesso!');
+                    window.location.href = 'login.php';
+                  </script>";
+            exit;
+        } else {
+            echo "<script>alert('Erro ao cadastrar o usuário.');</script>";
+        }
     } else {
-        echo "As senhas não coincidem.";
+        echo "<script>alert('As senhas não coincidem.');</script>";
     }
 }
 ?>

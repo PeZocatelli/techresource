@@ -12,7 +12,7 @@ body {
     align-items: center;
     background-color: #f4f4f4;
     position: relative;
-    overflow: hidden; /* Esconde as barras de rolagem se necessário */
+    overflow: hidden;
 }
 
 #background-video {
@@ -21,9 +21,9 @@ body {
     left: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1; /* Mantém o vídeo no fundo */
-    object-fit: cover; /* Garante que o vídeo cubra toda a tela */
-    opacity: 0.8; /* Transparência para deixar o login mais legível */
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.8;
 }
 
 .login-container {
@@ -31,80 +31,70 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 50px;
-    border-radius: 20px; /* Aumenta o arredondamento */
+    padding: 30px;
+    border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 750px;
     width: 90%;
-    position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 1; /* Coloca o login acima do vídeo */
 }
 
 .illustration img {
-    width: 450px;
-    height: 350px;
-    margin-right: 30px;
-    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 15px;
 }
 
 .login-box {
-    width: 320px;
+    width: 280px;
 }
 
 .login-box h2 {
     color: #800000;
-    margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .login-box p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #333;
+    font-size: 0.9em;
 }
 
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .input-group label {
     display: block;
     margin-bottom: 5px;
     color: #800000;
+    font-size: 0.9em;
 }
 
 .input-group input {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 8px;
     outline: none;
+    font-size: 0.9em;
 }
 
 .input-group input:focus {
     border-color: #800000;
 }
 
-.forgot-password {
-    display: block;
-    margin-bottom: 20px;
-    text-align: right;
-    text-decoration: none;
-    color: #800000;
-}
-
-.forgot-password:hover {
-    text-decoration: underline;
-}
-
 .login-btn {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     background-color: #800000;
     color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: 1em;
 }
 
 .login-btn:hover {
@@ -118,10 +108,11 @@ body {
 
 .google-btn, .facebook-btn {
     width: 48%;
-    padding: 12px;
+    padding: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
+    font-size: 0.9em;
 }
 
 .google-btn {
@@ -142,30 +133,15 @@ body {
     background-color: #365899;
 }
 
-/* Animação ao passar o mouse */
 .login-container:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
- /* Estilos adicionais para o vídeo de fundo */
- #background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-.login-container {
-    position: relative;
-    z-index: 1;
-}
 
 .no-account {
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 .no-account a {
@@ -176,27 +152,25 @@ body {
 .no-account a:hover {
     text-decoration: underline;
 }
-/* Estilos gerais para o botão */
+
 .register-btn {
-    background: linear-gradient(45deg, #8e44ad, #c0392b); /* Gradiente de cor */
+    background: linear-gradient(45deg, #8e44ad, #c0392b);
     color: white;
-    font-size: 18px;
-    padding: 12px 20px;
+    font-size: 16px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    transition: all 0.3s ease; /* Transição suave */
+    transition: all 0.3s ease;
 }
 
-/* Efeito ao passar o mouse */
 .register-btn:hover {
-    background: linear-gradient(45deg, #c0392b, #8e44ad); /* Inverter as cores do gradiente */
-    transform: scale(1.05); /* Leve aumento do botão */
+    background: linear-gradient(45deg, #c0392b, #8e44ad);
+    transform: scale(1.05);
 }
 
-/* Efeito quando o botão é pressionado */
 .register-btn:active {
-    transform: scale(1); /* Retorno ao tamanho normal */
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombras para o efeito de clique */
+    transform: scale(1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

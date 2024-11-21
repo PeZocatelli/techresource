@@ -10,7 +10,7 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
     $usuarioExistente = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($usuarioExistente) {
-        echo "Este e-mail já está registrado.";
+        echo "<script>alert('Este e-mail já está registrado.');</script>";
     } else {
         // Criptografa a senha
         $senhaHash = password_hash($senha, PASSWORD_BCRYPT);
@@ -26,17 +26,14 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
         $stmtInsert->bindParam(':senha', $senhaHash);
         
         if ($stmtInsert->execute()) {
-            echo "Cadastro realizado com sucesso!";
+            echo "<script>alert('Cadastro realizado com sucesso!');</script>";
+            echo "<script>window.location.href = 'login.php';</script>";
+            exit;
         } else {
-            echo "Erro ao cadastrar o usuário.";
+            echo "<script>alert('Erro ao cadastrar o usuário.');</script>";
         }
     }
 }
-
-
-?>
-
-
 ?>
 
 
