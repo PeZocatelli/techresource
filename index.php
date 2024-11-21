@@ -19,6 +19,7 @@
             <li><a href="#nossa-visao">Nossa Visão</a></li>
             <li><a href="#advogados">Advogados</a></li>
             <li><a href="#contato">Contato</a></li>
+            <li><a href="perfis.php">Advogados</a></li>
         </ul>
     </nav>
 </section>
