@@ -55,7 +55,6 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
         </div>
         <div class="login-box">
             <h2>CADASTRO DO CLIENTE</h2>
-            <p>Cadastre-se para acessar os serviços:</p>
             <form method="POST" action="cadastro.php">
                 <div class="input-group">
                     <label for="nome_completo">Nome completo:</label>
