@@ -13,19 +13,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Verifica se as senhas coincidem
     if ($senha === $confirmarSenha) {
-        // Chama a função de cadastro, passando os dados
-        if (cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $senha)) {
-            // Redireciona para login.php se o cadastro for bem-sucedido
-            echo "<script>
-                    alert('Cadastro realizado com sucesso!');
-                    window.location.href = 'login.php';
-                  </script>";
-            exit;
-        } else {
-            echo "<script>alert('Erro ao cadastrar o usuário.');</script>";
-        }
+       
+        
     } else {
         echo "<script>alert('As senhas não coincidem.');</script>";
     }
 }
 ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastroo.css">
+</head>
+<body>
+    <div class="success-message">
+        <h2>Cadastro realizado com sucesso!</h2>
+        <p>Agora você pode acessar sua conta.</p>
+        <button onclick="window.location.href='login.php';" class="login-button">Fazer Login</button>
+    </div>
+</body>
+</html>

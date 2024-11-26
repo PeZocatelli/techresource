@@ -1,0 +1,72 @@
+/* Reset básico */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3f4f7, #e1e5ea);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mensagem de sucesso */
+.success-message {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título e descrição */
+.success-message h2 {
+    font-size: 1.8rem;
+    color: #800000;
+    margin-bottom: 1rem;
+}
+
+.success-message p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Botão de login */
+.login-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .success-message {
+        padding: 1.5rem;
+    }
+
+    .success-message h2 {
+        font-size: 1.5rem;
+    }
+
+    .login-button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
