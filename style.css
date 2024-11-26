@@ -283,10 +283,12 @@ h1 {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(./imgs/imafff.jpeg);
+    background-image: url(./imgs/procureadv.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: azure;            
+    background-color: azure;       
+         
+
 }
 
 .contact-form {
@@ -621,6 +623,79 @@ h1 {
         text-align: center; /* Alinha o texto do botão ao centro */
         margin-top: 20px; /* Espaçamento superior ao botão */
     }
- 
+    /* Estilo específico para elementos dentro de .main-containerrr */
+/* Estilos específicos para o contêiner .main-containerrr */
+.main-containerrr {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
 
+.main-containerrr .title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
 
+.main-containerrr .logoooo {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+/* Contêiner dos cartões */
+.main-containerrr .dropdown-containerr {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Estilo dos cartões */
+.main-containerrr .adv-card {
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-containerrr .adv-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-containerrr .adv-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.main-containerrr .adv-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+.main-containerrr .adv-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 15px;
+}
+
+.main-containerrr .adv-button {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main-containerrr .adv-button:hover {
+    background-color: #a83232;
+}

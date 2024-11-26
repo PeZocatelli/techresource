@@ -530,3 +530,72 @@ h1 {
     background-color: #701c1c; /* efeito hover para um tom mais escuro */
 }
 
+.main-containerrr {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.main-containerrr .dropdown-containerr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Organiza 4 cartões por linha */
+    gap: 30px; /* Espaçamento entre os cartões */
+    justify-items: center; /* Centraliza os cartões */
+}
+
+/* Estilo dos cartões */
+.main-containerrr .adv-card {
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px; /* Cartão maior */
+    height: 350px; /* Cartão mais alto */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Aumentando o tamanho do cartão ao passar o mouse */
+.main-containerrr .adv-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do avatar */
+.main-containerrr .adv-avatar {
+    width: 120px; /* Aumentando o tamanho do avatar */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Estilo do nome do advogado */
+.main-containerrr .adv-name {
+    font-size: 20px; /* Aumentando o tamanho do nome */
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilo da descrição do advogado */
+.main-containerrr .adv-desc {
+    font-size: 16px; /* Aumentando a descrição */
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+/* Estilo do botão */
+.main-containerrr .adv-button {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    font-size: 16px; /* Aumentando o botão */
+    cursor: pointer;
+}
+
+/* Mudando a cor do botão ao passar o mouse */
+.main-containerrr .adv-button:hover {
+    background-color: #a83232;
+}

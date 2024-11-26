@@ -38,7 +38,61 @@
         <button class="cadastrar-button" onclick="location.href='perfil.php'">Encontrar</button>
     </div>
 </section>
+<div class="main-containerrr">
+        <h1 class="title">Encontre o seu advogado</h1>
+        <img src="./imgs/logoadv2.png" alt="Logo Conexão Advocacia" class="logoooo">
 
+        <div class="dropdown-containerr">
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+            <div class="adv-card">
+                <img src="./imgs/avatar.png" alt="Advogado" class="adv-avatar">
+                <p class="adv-name">Nome Completo</p>
+                <p class="adv-desc">Breve descrição</p>
+                <button class="adv-button">Saiba mais</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
