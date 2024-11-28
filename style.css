@@ -327,7 +327,7 @@ form input, form textarea {
 form button {
     width: 87%;
     padding: 10px;
-    background-color: #ff6600;
+    background-color: #8B0000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -336,7 +336,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #e65c00;
+    background-color: #8B0000;
 }
 
 .contact-info {
@@ -367,7 +367,7 @@ form button:hover {
 }
 
 .contact-item {
-    background-color: #e65c00;
+    background-color: #8B0000;
     color: #fff;
     padding: 15px;
     border-radius: 3px;
@@ -643,7 +643,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Contêiner dos cartões */
+
 .main-containerrr .dropdown-containerr {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -651,10 +651,9 @@ h1 {
     justify-items: center;
 }
 
-/* Estilo dos cartões */
 .main-containerrr .adv-card {
     background-color: #fdfdfd;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #940000;
     border-radius: 10px;
     padding: 15px;
     width: 200px;
@@ -698,4 +697,14 @@ h1 {
 
 .main-containerrr .adv-button:hover {
     background-color: #a83232;
+}
+.social-icons a {
+    color: #BEBEBE; 
+    font-size: 20px; 
+    margin: 0 10px; 
+    transition: color 0.3s; 
+}
+
+.social-icons a:hover {
+    color: #4d0000; 
 }
