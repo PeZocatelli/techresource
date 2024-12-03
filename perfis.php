@@ -15,8 +15,8 @@
         <ul class="nav-links">
             <li><a href="index.php">Início</a></li>
             <li><a href="index.php#area-atuacao">Área de Atuação</a></li>
-            <li><a href="index.php#advogados">Advogados</a></li>
-            <li><a href="index.php#nossa-visao">Nossa Visão</a></li>
+            <li><a href="index.php#advogados">Seja um Advogado</a></li>
+            <li><a href="index.php#nossa-visao">Visão</a></li>
             <li><a href="index.php#contato">Contato</a></li>
             <li><a href="perfis.php">Encontre um Advogado</a></li>
         </ul>
@@ -29,13 +29,11 @@
         <div class="content">
             <h1>Encontre o seu advogado!</h1>
             <p>Aqui você encontra profissionais especializados em diversas áreas do Direito, prontos para oferecer a melhor solução jurídica. Explore perfis detalhados, conheça a experiência de cada advogado e agende sua consulta com rapidez e praticidade. Simplifique sua busca e garanta o suporte jurídico que você merece!</p>
-            <button class="cadastrar-button" onclick="location.href='perfil.php'">Encontrar</button>
         </div>
     </section>
 
     <div class="main-containerrr">
-        <h1 class="title">Encontre o seu advogado</h1>
-        <img src="./imgs/logoadv2.png" alt="Logo Conexão Advocacia" class="logoooo">
+        
 
         <!-- Perfis dos advogados -->
         <div class="dropdown-containerr">
