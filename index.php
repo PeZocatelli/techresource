@@ -35,8 +35,9 @@
     </div>
 
     <div class="background">
-        <button class="whatsapp-button">Chamar via WhatsApp</button>
-    </div>
+    <a href="https://wa.me/12997287274" target="_blank" class="whatsapp-button">Chamar via WhatsApp</a>
+</div>
+
     
     <div class="container">
         <section id="area-atuacao" class="Área de Atuação">
