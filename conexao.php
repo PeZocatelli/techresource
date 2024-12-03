@@ -1,7 +1,7 @@
 <?php
 // conexao.php
 $host = 'localhost';
-$dbname = 'advocacia'; // Nome do banco de dados
+$dbname = 'profissionais'; // Nome do banco de dados
 $user = 'root';
 $password = ''; // Senha em branco
 

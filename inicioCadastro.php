@@ -1,9 +1,12 @@
 <?php
 require 'conexao.php';
 
-function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $senha) {
+if (!$pdo) {
+    die("Erro na conexão com o banco de dados.");
+}
+function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $area_de_atuacao, $senha) {
     // Verifica se o email já está cadastrado
-    $sql = "SELECT * FROM cadastros WHERE email = :email";
+    $sql = "SELECT * FROM usuarios WHERE email = :email";
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':email', $email);
     $stmt->execute();
@@ -16,14 +19,17 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
         $senhaHash = password_hash($senha, PASSWORD_BCRYPT);
         
         // Insere o novo usuário no banco de dados, incluindo os novos campos
-        $sqlInsert = "INSERT INTO cadastros (nome_completo, email, telefone, cidade, senha) 
-                      VALUES (:nome_completo, :email, :telefone, :cidade, :senha)";
+        $sqlInsert = "INSERT INTO cadastros (nome_completo, email, telefone, `área de atuação`, senha) 
+                      VALUES (:nome_completo, :email, :telefone, :area_de_atuacao, :senha)";
         $stmtInsert = $pdo->prepare($sqlInsert);
         $stmtInsert->bindParam(':nome_completo', $nome_completo);
         $stmtInsert->bindParam(':email', $email);
         $stmtInsert->bindParam(':telefone', $telefone);
-        $stmtInsert->bindParam(':cidade', $cidade);
+        $stmtInsert->bindParam(':area de atuacao	
+', $area_de_atuacao	
+    );
         $stmtInsert->bindParam(':senha', $senhaHash);
+        $stmtInsert->bindParam(':area_de_atuacao', $area_de_atuacao);  // Corrigido para usar a variável correta
         
         if ($stmtInsert->execute()) {
             echo "<script>alert('Cadastro realizado com sucesso!');</script>";
@@ -35,6 +41,7 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
     }
 }
 ?>
+
 
 
 <!DOCTYPE html>
@@ -66,7 +73,7 @@ function cadastrarUsuario($pdo, $nome_completo, $email, $telefone, $cidade, $sen
                     <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
                 </div>
                 <div class="input-group">
-                    <label for="cidade">Cidade:</label>
+                    <label for="cidade">Area de Atuação:</label>
                     <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" required>
                 </div>
                 <div class="input-group">

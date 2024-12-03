@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nome_completo = $_POST['nome_completo'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
-    $cidade = $_POST['cidade'];
+    $cidade = $_POST['area_de_atuacao'];
     $senha = $_POST['senha'];
     $confirmarSenha = $_POST['confirmar_senha'];
 

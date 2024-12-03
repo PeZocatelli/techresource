@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 14-Nov-2024 às 12:33
+-- Tempo de geração: 03-Dez-2024 às 13:25
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -18,22 +18,22 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `advocacia`
+-- Banco de dados: `profissionais`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `cadastros`
+-- Estrutura da tabela `usuarios`
 --
 
-CREATE TABLE `cadastros` (
+CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
-  `nome_completo` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `cidade` varchar(50) NOT NULL,
+  `nome_completo` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `telefone` varchar(20) DEFAULT NULL,
-  `senha` varchar(255) NOT NULL
+  `senha_criptografada` varchar(255) NOT NULL,
+  `area_de_atuacao` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -41,9 +41,9 @@ CREATE TABLE `cadastros` (
 --
 
 --
--- Índices para tabela `cadastros`
+-- Índices para tabela `usuarios`
 --
-ALTER TABLE `cadastros`
+ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `email` (`email`);
 
@@ -52,9 +52,9 @@ ALTER TABLE `cadastros`
 --
 
 --
--- AUTO_INCREMENT de tabela `cadastros`
+-- AUTO_INCREMENT de tabela `usuarios`
 --
-ALTER TABLE `cadastros`
+ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
