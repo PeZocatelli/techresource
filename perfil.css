@@ -71,7 +71,6 @@ body {
 .btn-back {
     margin-top: 10px;
     padding: 10px;
-   
     color: #ffffff;
     font-size: 15px;
     font-weight: bold;
@@ -79,4 +78,7 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     width: 70px;
+}
+.btn-back:hover {
+    background-color: #c4b9b9;
 }

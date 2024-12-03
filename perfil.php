@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
+    
     <div class="profile-container">
         <div class="profile-info">
             <h1>Perfil Profissional</h1>
