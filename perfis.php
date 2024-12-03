@@ -25,7 +25,7 @@
     <section id="inicio" class="Início"></section>
 
     <section id="advogados1" class="seja-advogados">
-        <div class="overlay"></div> <!-- Sobreposição escura -->
+        <div class="overlay"></div> 
         <div class="content">
             <h1>Encontre o seu advogado!</h1>
             <p>Aqui você encontra profissionais especializados em diversas áreas do Direito, prontos para oferecer a melhor solução jurídica. Explore perfis detalhados, conheça a experiência de cada advogado e agende sua consulta com rapidez e praticidade. Simplifique sua busca e garanta o suporte jurídico que você merece!</p>
