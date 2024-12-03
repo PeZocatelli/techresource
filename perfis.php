@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="./imgs/logoadv.png" alt="Logo da Empresa" height="90" width="90">
+        <img src="./imgs/logoadv.png" alt="Logo da Empresa" height="90" height="90">
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Início</a></li>
