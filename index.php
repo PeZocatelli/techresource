@@ -16,8 +16,8 @@
         <ul class="nav-links">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#area-atuacao">Área de Atuação</a></li>
-            <li><a href="#advogados">Advogados</a></li>
-            <li><a href="#nossa-visao">Nossa Visão</a></li>
+            <li><a href="#advogados">Seja um Advogado</a></li>
+            <li><a href="#nossa-visao">Visão</a></li>
             <li><a href="#contato">Contato</a></li>
             <li><a href="perfis.php">Encontre um Advogado</a></li>
         </ul>
@@ -35,8 +35,9 @@
     </div>
 
     <div class="background">
-        <button class="whatsapp-button">Chamar via WhatsApp</button>
-    </div>
+    <a href="https://wa.me/12997287274" target="_blank" class="whatsapp-button">Chamar via WhatsApp</a>
+</div>
+
     
     <div class="container">
         <section id="area-atuacao" class="Área de Atuação">
@@ -99,12 +100,39 @@ Nos próximos anos, planejamos expandir nossa atuação com parcerias estratégi
             <div class="left">
                 <h2>OBTENHA UMA AVALIAÇÃO DE CASO GRATUITA HOJE MESMO!</h2>
                 <p>DISPONÍVEL 24 HORAS POR DIA!</p>
-                <form>
-                    <input type="text" placeholder="Digite seu nome" required>
-                    <input type="email" placeholder="Digite um email válido" required>
-                    <textarea placeholder="Escreva sua mensagem" required></textarea>
-                    <button type="submit">ENVIAR</button>
-                </form>
+                <form id="contactForm">
+        <input type="text" id="name" placeholder="Digite seu nome" required>
+        <input type="email" id="email" placeholder="Digite um email válido" required>
+        <textarea id="message" placeholder="Escreva sua mensagem" required></textarea>
+        <button type="submit">ENVIAR</button>
+    </form>
+
+    <!-- Script do SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+            
+            // Pega os valores dos campos
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Alerta estilizado usando SweetAlert2
+            Swal.fire({
+                title: 'Mensagem Enviada!',
+                html: `<p><strong>Nome:</strong> ${name}</p>
+                       <p><strong>Email:</strong> ${email}</p>
+                       <p><strong>Mensagem:</strong> ${message}</p>`,
+                icon: 'success',
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#3085d6',
+                background: '#fefefe',
+                color: '#333',
+            });
+        });
+    </script>
+            
             </div>
 
 
@@ -136,9 +164,5 @@ Nos próximos anos, planejamos expandir nossa atuação com parcerias estratégi
             </div>
         </div>
     </div>
- 
-
-    
-
 </body>
 </html>
